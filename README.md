@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# Test project for Smarkets
+
+The simple SPA which contains the list of popular events with some additional information about event.
+You can watch the result on [https://yarymvsarge.github.io/events-list](https://yarymvsarge.github.io/events-list).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+It is recommended to use NodeJS v16 in development mode.
 
 ## Available Scripts
 
@@ -13,11 +18,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -39,8 +39,11 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### `npm run pre-commit`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Run pre-commit hooks (prettier only now).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `npm run deploy`
+
+Deploy the project's version on [https://yarymvsarge.github.io/events-list](https://yarymvsarge.github.io/events-list).
+Will work only for me :)
