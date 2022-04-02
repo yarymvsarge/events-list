@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkevent_list=self.webpackChunkevent_list||[]).push([[99],{99:function(e,n,t){t.r(n);var c=t(791),s=t(871),o=t(184);n.default=function(){var e=(0,s.UO)().id;return(0,c.useEffect)((function(){fetch("https://cors-anywhere.herokuapp.com/api.smarkets.com/v3/events/".concat(e),{headers:{"Content-Type":"application/json"}}).then((function(e){return e.json()})).then((function(e){return console.log(e)}))}),[]),(0,o.jsx)("div",{children:(0,o.jsx)("p",{children:e})})}}}]);
-//# sourceMappingURL=99.ff1b969a.chunk.js.map
